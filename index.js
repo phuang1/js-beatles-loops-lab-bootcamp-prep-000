@@ -14,7 +14,7 @@ function johnLennonFacts(facts){
   let i=0
   
   while (i<facts.length){
-  excitedFacts.push (`facts[i]!!!`)
+  excitedFacts.push (`${facts[i]}!!!`)
   i++
   }
   
@@ -25,7 +25,9 @@ function iLoveTheBeatles(n){
   var beatlesLove=[]
   
   do {
-    beatlesLove.push('I love the Beatles!')}
+    beatlesLove.push('I love the Beatles!')
+    n++
+  }
   while (n<15);
 
   return beatlesLove    
