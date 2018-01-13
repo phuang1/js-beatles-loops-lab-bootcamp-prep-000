@@ -1,7 +1,7 @@
-function theBeatlesPlay(array1,array2){
+function theBeatlesPlay(mus,instr){
   var arrayMus = [];
   for (let i=0; i<array1.length; i++) {
-  arrayMus.push (`${array1[i]} plays ${array2[i]}`)
+  arrayMus.push (`${mus[i]} plays ${instr[i]}`)
 }
   return arrayMus
 }
