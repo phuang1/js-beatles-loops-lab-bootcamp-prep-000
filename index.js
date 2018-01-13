@@ -15,7 +15,8 @@ function johnLennonFacts(facts){
   
   while (i<facts.length){
   excitedFacts.push (`facts[i]!!!`)
-  i++}
+  i++
+  }
   
   return excitedFacts
 }
