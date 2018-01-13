@@ -1,6 +1,6 @@
 function theBeatlesPlay(mus,instr){
   var arrayMus = [];
-  for (let i=0; i<array1.length; i++) {
+  for (let i=0; i<mus.length; i++) {
   arrayMus.push (`${mus[i]} plays ${instr[i]}`)
 }
   return arrayMus
